@@ -1,0 +1,100 @@
+@@include('header.htm')
+@@include('blocks/navbar.htm',{"bg-light-gray": "", "pages": "active", "career": "active", "jobDetails": "active"})
+
+<!-- start of job-details-section -->
+<section class="section-padding" data-aos="fade-in" data-aos-delay="150">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-10 col-xl-8">
+                <div class="mb-40">
+                    <h2 class="h1 font-weight-bold mb-10">Data Analytics Manager</h2>
+                    <p>at Copper - <a class="text-primary" href="career.html#join-team">(View all jobs)</a></p>
+                </div>
+                <div class="mb-30">
+                    <h3 class="font-weight-bold mb-20">About Copper</h3>
+                    <p class="mb-10">At Copper, we want to make your neighborhood a little more familiar. Whether it’s a handyman (or woman!), a housecleaner, moving help or delivery person, we’re imagining a world where everyone will have a go-to team to make everyday life easier.</p>
+                    <p>As a pioneer of the sharing economy, TaskRabbit was founded on the premise of neighbors helping neighbors. Since then, our network has grown to three countries and 45+ cities, yet our core mission of creating a better everyday life for everyday people.</p>
+                </div>
+                <div class="mb-30">
+                    <h3 class="font-weight-bold mb-20">What you’ll do</h3>
+                    <ul class="list-unstyled bullet-list mt-20">
+                        <li>Design and implement systems for mitigating abusive behaviour on our platform.</li>
+                        <li>Getting hands-on experience with Google Cloud Platform and technology/languages such as BigQuery, Scala, Scio, Luigi, Styx and Docker</li>
+                        <li>Operate large scale real time and batch data pipelines and backend services</li>
+                        <li>Understand use cases for abusive behaviour that enable teams to use our systems to integrate new detection methods, allowing for swift and correct mitigation.</li>
+                    </ul>
+                </div>
+                <div class="mb-30">
+                    <h3 class="font-weight-bold mb-20">Background and Experience</h3>
+                    <ul class="list-unstyled bullet-list mt-20">
+                        <li>+4 years of experience in managing data analyst teams including data analysts and/or data scientists</li>
+                        <li>+6 years experience in solving business problems using data and advanced analytical methods.</li>
+                        <li>Experienced in building predictive and statistical models</li>
+                        <li>Strong experience with SQL (MySQL, PostgreSQL, etc.)</li>
+                        <li>Strong communication skills, both written and oral; comfortable presenting findings and recommendations to decision-makers</li>
+                    </ul>
+                </div>
+                <div class="mb-30">
+                    <h3 class="font-weight-bold mb-20">You’ll love working with Copper because:</h3>
+                    <ul class="list-unstyled bullet-list mt-20">
+                        <li>The People. You will be surrounded by some of the most talented, supportive, smart, and kind leaders and teams -- people you can be proud to work with!</li>
+                        <li>The diverse culture. We believe that we make better decisions when our workforce reflects the diversity of the communities in which we operate. Women make up more than half of our team and leadership, and we strive to recruit and retain employees from all over the world.</li>
+                        <li>Copper offers comprehensive medical benefits, generous vacation and holiday time off, commuter benefits, learning and development opportunities, career development training, monthly TaskRabbit product stipends, IKEA discounts, free lunch, weekly meditations, charity events.</li>
+                    </ul>
+                </div>
+                <div class="row">
+                    <div class="col-lg-10">
+                        <div class="accordion">
+                            <button class="btn btn-primary has-icon mt-30 disable-toggle" data-toggle="collapse" data-target="#job-apply" aria-expanded="false">Apply for Job
+                                <span class="icon"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.5522 6.66669L20.5522 14.6667C21.0329 15.1473 21.0699 15.9036 20.6632 16.4267L20.5522 16.5523L12.5522 24.5523L10.6666 22.6667L17.7228 15.6095L10.6666 8.55231L12.5522 6.66669Z" fill="currentColor"/></svg></span>
+                            </button>
+                            <div id="job-apply" class="collapse disable-toogle">
+                                <form method="POST" class="needs-validation row shadow p-2 p-sm-4 mt-40" novalidate>
+                                    <div class="form-group mb-20 col-md-6">
+                                        <label class="text-black-200 h6 font-weight-600 mb-2" for="fname">First Name*</label>
+                                        <input class="form-control shadow-none" type="text" placeholder="Jack" id="fname" required>
+                                        <p class="font-weight-bold invalid-feedback">Your first name is required!</p>
+                                    </div>
+                                    <div class="form-group mb-20 col-md-6">
+                                        <label class="text-black-200 h6 font-weight-600 mb-2" for="lname">Last Name*</label>
+                                        <input class="form-control shadow-none" type="text" placeholder="Barker" id="lname" required>
+                                        <p class="font-weight-bold invalid-feedback">Your last name is required!</p>
+                                    </div>
+                                    <div class="form-group mb-20 col-12">
+                                        <label class="text-black-200 h6 font-weight-600 mb-2" for="email">Email Address*</label>
+                                        <input class="form-control shadow-none" type="email" placeholder="jack@email.com" id="email" required>
+                                        <p class="font-weight-bold invalid-feedback">Your email is required!</p>
+                                    </div>
+                                    <div class="form-group mb-20 col-12">
+                                        <label class="text-black-200 h6 font-weight-600 mb-2" for="currentCompany">Current Company*</label>
+                                        <input class="form-control shadow-none" type="text" placeholder="Squarespace" id="currentCompany" required>
+                                        <p class="font-weight-bold invalid-feedback">Your current company name is required!</p>
+                                    </div>
+                                    <div class="form-group mb-20 col-12">
+                                        <label class="text-black-200 h6 font-weight-600 mb-2" for="fileCV">Resume/CV*</label>
+                                        <input class="form-control shadow-none p-10" type="file" id="fileCV" required>
+                                        <small class="font-weight-500">only doc, pdf or docx file allowed and file size will be less than 2MB</small>
+                                        <p class="font-weight-bold invalid-feedback">Your CV is required!</p>
+                                    </div>
+                                    <div class="form-group mb-20 col-12">
+                                        <label class="text-black-200 h6 font-weight-600 mb-2" for="message">Want to say something?</label>
+                                        <textarea class="form-control shadow-none" name="comment" rows="3" id="message"></textarea>
+                                        <p class="font-weight-bold valid-feedback">OK! You can skip this field.</p>
+                                    </div>
+                                    <div class="form-group col-12">
+                                        <button class="btn btn-primary w-100" type="submit">Submit Application</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end of job-details-section -->
+
+<!-- end of join-team section -->
+
+@@include('footer.htm',{"hasVideo": ""})

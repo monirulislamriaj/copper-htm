@@ -1,0 +1,201 @@
+@@include('header.htm')
+@@include('blocks/navbar.htm',{"bg-light-gray": "bg-light-gray", "pricing": "active", "pricingOne": "active"})
+
+@@include('blocks/page-header.htm',{"title": "Pricing", "breadcrumb": "Pricing"})
+
+<!-- start of pricing-section -->
+<section class="section-padding pb-0" data-aos="fade-in" data-aos-delay="150">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6 col-md-9 text-center mb-40">
+                <h2 class="section-title">Choose <strong>Pricing</strong></h2>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="pricing-switch d-flex align-items-center justify-content-center w-100 mb-30">
+                    <label class="h5 m-0" id="monthly">Billed Monthly</label>
+                    <div class="toggle">
+                        <input class="pricing-check" type="checkbox"><b class="switch"></b>
+                    </div>
+                    <label class="h5 m-0" id="annually">Billed Annually</label>
+                </div>
+                <!-- pricing-switcher -->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <table class="pricing-table shadow">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th><h3 class="font-weight-bold text-white">Free</h3></th>
+                            <th><h3 class="font-weight-bold text-white">Team</h3></th>
+                            <th><h3 class="font-weight-bold text-white">Business</h3></th>
+                            <th><h3 class="font-weight-bold text-white">Enterprise</h3></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><span class="text-primary">Save 50% On Annual Subscription</span></td>
+                            <td data-label="Free">
+                                <span class="h2 font-weight-bold d-inline-flex">
+                                    $0
+                                </span>
+                                <p class="mt-10">Lorem ipsum dolor sit amet confsectur justo massa.</p>
+                            </td>
+                            <td data-label="Team">
+                                <span class="h2 font-weight-bold d-inline-flex">
+                                    $<span class="data-count" data-count-monthly="39" data-count-annually="139">39</span>
+                                </span>
+                                <span class="text-monthly">\Month</span>
+                                <span class="text-annually d-none">\Year</span>
+                                <p class="mt-10">Lorem ipsum dolor sit amet confsectur justo massa.</p>
+                            </td>
+                            <td data-label="Business" class="active">
+                                <span class="recomended">Recomended</span>
+
+                                <span class="h2 font-weight-bold d-inline-flex">
+                                    $<span class="data-count" data-count-monthly="59" data-count-annually="159">59</span>
+                                </span>
+                                <span class="text-monthly">\Month</span>
+                                <span class="text-annually d-none">\Year</span>
+                                <p class="mt-10">Lorem ipsum dolor sit amet confsectur justo massa.</p>
+                            </td>
+                            <td data-label="Enterprise">
+                                <span class="h2 font-weight-bold d-inline-flex">
+                                    $<span class="data-count" data-count-monthly="89" data-count-annually="189">89</span>
+                                </span>
+                                <span class="text-monthly">\Month</span>
+                                <span class="text-annually d-none">\Year</span>
+                                <p class="mt-10">Lorem ipsum dolor sit amet confsectur justo massa.</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="d-flex align-items-center">
+                                    <span class="text-primary mr-2">
+                                        <i class="ti-info-alt"></i>
+                                    </span> Pages
+                                </div>
+                            </td>
+                            <td data-label="Free">
+                                <span class="text-black"><i class="ti-check"></i></span>
+                            </td>
+                            <td data-label="Team">
+                                <span class="text-black"><i class="ti-check"></i></span>
+                            </td>
+                            <td data-label="Business">
+                                <span class="text-black"><i class="ti-check"></i></span>
+                            </td>
+                            <td data-label="Enterprise">
+                                <span class="text-black"><i class="ti-check"></i></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="d-flex align-items-center">
+                                    <span class="text-primary mr-2">
+                                        <i class="ti-info-alt"></i>
+                                    </span> Monthly visits
+                                </div>
+                            </td>
+                            <td data-label="Free" class="font-weight-bold"><span class="data-count" data-count-monthly="10000" data-count-annually="30000">10000</span></td>
+                            <td data-label="Team" class="font-weight-bold"><span class="data-count" data-count-monthly="30000" data-count-annually="60000">30000</span></td>
+                            <td data-label="Business" class="font-weight-bold"><span class="data-count" data-count-monthly="50000" data-count-annually="80000">50000</span></td>
+                            <td data-label="Enterprise" class="font-weight-bold"><span class="data-count" data-count-monthly="100000" data-count-annually="130000">100000</span>+</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="d-flex align-items-center">
+                                    <span class="text-primary mr-2">
+                                        <i class="ti-info-alt"></i>
+                                    </span> Collection items
+                                </div>
+                            </td>
+                            <td data-label="Free" class="font-weight-bold"><span class="data-count" data-count-monthly="50000" data-count-annually="80000">50000</span></td>
+                            <td data-label="Team" class="font-weight-bold"><span class="data-count" data-count-monthly="70000" data-count-annually="90000">70000</span></td>
+                            <td data-label="Business" class="font-weight-bold"><span class="data-count" data-count-monthly="100000" data-count-annually="120000">100000</span></td>
+                            <td data-label="Enterprise" class="font-weight-bold"><span class="data-count" data-count-monthly="250000" data-count-annually="300000">250000</span>+</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="d-flex align-items-center">
+                                    <span class="text-primary mr-2">
+                                        <i class="ti-info-alt"></i>
+                                    </span> Form submissions
+                                </div>
+                            </td>
+                            <td data-label="Free">
+                                <span class="text-black text-annually d-none"><i class="ti-check"></i></span>
+                            </td>
+                            <td data-label="Team">
+                                <span class="text-black"><i class="ti-check"></i></span>
+                            </td>
+                            <td data-label="Business">
+                                <span class="text-black"><i class="ti-check"></i></span>
+                            </td>
+                            <td data-label="Enterprise">
+                                <span class="text-black"><i class="ti-check"></i></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="d-flex align-items-center">
+                                    <span class="text-primary mr-2">
+                                        <i class="ti-info-alt"></i>
+                                    </span> Monthly visits
+                                </div>
+                            </td>
+                            <td data-label="Free" class="font-weight-bold"><span class="data-count" data-count-monthly="100" data-count-annually="120">100</span></td>
+                            <td data-label="Team" class="font-weight-bold"><span class="data-count" data-count-monthly="5000" data-count-annually="9000">5000</span></td>
+                            <td data-label="Business" class="font-weight-bold"><span class="data-count" data-count-monthly="20000" data-count-annually="25000">20000</span></td>
+                            <td data-label="Enterprise" class="font-weight-bold"><span class="data-count" data-count-monthly="150000" data-count-annually="200000">150000</span>+</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="d-flex align-items-center">
+                                    <span class="text-primary mr-2">
+                                        <i class="ti-info-alt"></i>
+                                    </span> Annually visits
+                                </div>
+                            </td>
+                            <td data-label="Free">
+                                <span class="text-black"><i class="ti-check"></i></span>
+                            </td>
+                            <td data-label="Team">
+                                <span class="text-black text-annually d-none"><i class="ti-check"></i></span>
+                            </td>
+                            <td data-label="Business">
+                                <span class="text-black"><i class="ti-check"></i></span>
+                            </td>
+                            <td data-label="Enterprise">
+                                <span class="text-black"><i class="ti-check"></i></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td data-label="Free" class="font-weight-bold">
+                                <a href="#!" class="btn btn-outline-primary d-block">Start Free Trial</a>
+                            </td>
+                            <td data-label="Team" class="font-weight-bold">
+                                <a href="#!" class="btn btn-outline-primary d-block">Start Now</a>
+                            </td>
+                            <td data-label="Business" class="font-weight-bold">
+                                <a href="#!" class="btn btn-primary d-block">Start Now</a>
+                            </td>
+                            <td data-label="Enterprise" class="font-weight-bold">
+                                <a href="#!" class="btn btn-outline-primary d-block">Start Now</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end of pricing-section -->
+
+@@include('blocks/faq.htm')
+@@include('footer.htm',{"hasVideo": ""})
